@@ -1,0 +1,14 @@
+2024-12-10 16:57:23 [main] INFO  org.example.SLF4J - Application started
+2024-12-10 16:57:23 [main] INFO  org.example.SLF4J - Performing task: Example Task
+2024-12-10 16:57:24 [main] ERROR org.example.SLF4J - An error occurred: / by zero
+java.lang.ArithmeticException: / by zero
+	at org.example.SLF4J.divideNumbers(SLF4J.java:37)
+	at org.example.SLF4J.main(SLF4J.java:15)
+2024-12-10 16:57:24 [main] WARN  org.example.SLF4J - Application is shutting down
+2024-12-10 17:00:03 [main] INFO  org.example.SLF4J - Application started
+2024-12-10 17:00:14 [main] INFO  org.example.SLF4J - Performing task: Example Task
+2024-12-10 17:00:43 [main] ERROR org.example.SLF4J - An error occurred: / by zero
+java.lang.ArithmeticException: / by zero
+	at org.example.SLF4J.divideNumbers(SLF4J.java:37)
+	at org.example.SLF4J.main(SLF4J.java:15)
+2024-12-10 17:00:45 [main] WARN  org.example.SLF4J - Application is shutting down
