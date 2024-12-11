@@ -1,7 +1,6 @@
 package org.example;
 
 import lombok.extern.slf4j.Slf4j;
-
 @Slf4j
 public class SLF4J {
 
@@ -9,7 +8,7 @@ public class SLF4J {
         log.info("Application started");
 
         SLF4J example = new SLF4J();
-        example.performTask("Example Task");
+       // example.performTask("Example Task");
 
         try {
             int result = example.divideNumbers(10, 0);
@@ -21,7 +20,7 @@ public class SLF4J {
         log.warn("Application is shutting down");
     }
 
-    public void performTask(String taskName) {
+    /*public void performTask(String taskName) {
         log.info("Performing task: {}", taskName);
 
         try {
@@ -30,7 +29,7 @@ public class SLF4J {
         } catch (InterruptedException e) {
             log.error("Task {} interrupted: {}", taskName, e.getMessage());
         }
-    }
+    }*/
 
     public int divideNumbers(int a, int b) {
         log.debug("Dividing {} by {}", a, b);
